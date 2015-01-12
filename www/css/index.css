@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, Arial;
+    font-size: 18px;
+    background-color: #d4d0b4;
+}
+h1 {
+    font-size: 1em;
+    background-color: #626b5e;
+    color: #f5f6f5;
+    line-height: 2em;
+    text-align: center;
+}
+#newTaskInput, #addNewTask {
+    display: block;
+    width: 98%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #757769;
+    border: 0;
+    height: 2em;
+    font-size: 1em;
+    color: #f5f6f5;
+}
+#taskList {
+    margin-top: 10px;
+}
+/*
+direct decendent >
+webkit is an experimental kit for chrome and safari 
+o is for opera
+moz for mozilla
+*/
+
+#taskList > li {
+    background: -webkit-linear-gradient(#fff, #f6f6f7);
+    background: -o-linear-gradient(#fff, #f6f6f7);
+    background: -moz-linear-gradient(#fff, #f6f6f7);
+    background: linear-gradient(#fff, #f6f6f7);
+    border: 1px solid #bbb6af;
+    line-height: 2em;
+    color: #929292;
+    margin-top: 2px
+}
+#taskList span {
+    margin-left: 5px;
+}
+.done {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
